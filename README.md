@@ -2,7 +2,7 @@
 
 A React + Redux shopping application for browsing houseplants and managing a shopping cart. Built with Vite, React 18, and Redux Toolkit.
 
-**Live demo:** https://strydom-louis.github.io/e-plantShopping/
+**Live demo:** https://lbstrydom.github.io/e-plantShopping/
 
 ## Features
 
@@ -36,7 +36,7 @@ This repo deploys automatically via **GitHub Actions** on every push to `main`
 3. Push to `main`; the workflow builds and publishes to
    `https://<your-username>.github.io/e-plantShopping/`.
 
-> If your GitHub username is not `strydom-louis`, update the `base` in
+> If your GitHub username is not `lbstrydom`, update the `base` in
 > `vite.config.js` and the `homepage` in `package.json` to match your repo path.
 
 A manual fallback is also available with `npm run deploy` (uses `gh-pages` to

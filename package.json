@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://strydom-louis.github.io/e-plantShopping",
+  "homepage": "https://lbstrydom.github.io/e-plantShopping",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
