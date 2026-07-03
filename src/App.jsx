@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import ProductList from './ProductList.jsx'
+import AboutUs from './AboutUs.jsx'
 import './App.css'
 
 function App() {
@@ -19,16 +20,7 @@ function App() {
           <div className="landing-content">
             <h1>Paradise Nursery</h1>
             <div className="divider"></div>
-            <p>
-              Welcome to Paradise Nursery, where green meets serenity! We are
-              passionate about bringing a touch of nature into your home and
-              workspace. Our carefully curated collection of premium houseplants
-              is hand-selected to purify your air, brighten your rooms, and
-              nurture your well-being. Whether you are a seasoned plant parent or
-              just beginning your green journey, our aromatic, medicinal, and
-              easy-care plants make it simple to build your own indoor paradise.
-              Grow with us and let nature flourish in every corner of your life.
-            </p>
+            <AboutUs />
             <button className="get-started-button" onClick={handleGetStartedClick}>
               Get Started
             </button>
